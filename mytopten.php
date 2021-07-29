@@ -1,3 +1,4 @@
+
 <?php     
     $mytopten=[
         [
@@ -60,5 +61,7 @@
             'year' => 1997,
             'poster' => 'https://images-na.ssl-images-amazon.com/images/I/511tbll7kCL._AC_SX466_.jpg'
         ]
-    ]    
-?>
+    ];
+    
+header('Content-Type: application/json');
+echo json_encode($mytopten);

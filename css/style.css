@@ -1,0 +1,27 @@
+
+header{
+    height:100px;
+    background-color: lightgreen;
+}
+main{
+    background-color: #212529;
+    padding: 100px 0;
+}
+.card-container{   
+    margin-top:50px;         
+    padding: 5px 6px;    
+}
+.card-contenent{
+    height:390px;  
+    border-radius: 2px;    
+}
+.card-item{
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;    
+}
+.text-title{
+    height:45px;
+    padding-bottom:5px;
+}
+ 
